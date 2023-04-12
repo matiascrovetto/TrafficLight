@@ -1,0 +1,35 @@
+.semaforo {
+  background-color: black;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 600px;
+  width: 200px;
+  height: 600px;
+  }
+  
+  #light {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+  }
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: green;
+  }
+  
+  .onRed {
+    box-shadow: 0px 0px 20px 10px red;
+  }
+  .onYellow {
+    box-shadow: 0px 0px 20px 10px yellow;
+  }
+  .onGreen {
+    box-shadow: 0px 0px 20px 10px green;
+  }
+  
